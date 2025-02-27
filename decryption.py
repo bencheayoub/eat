@@ -16,3 +16,10 @@ def exploit(s1):
         e3 += 1 
 
     return s1, s2
+s1, s2 = exploit("----_________")
+if s1[4:7] == s2[-3:]:
+    print("Case1:", str(int(s1[:4])//3) + s1[4:len(s1)-4+1][::-1])
+
+s1, s2 = exploit("---_________")
+if s1[3:6] == s2[-3:]:
+    print("Case2:", str(int(s1[:3])//3) + s1[3:len(s1)-3+1][::-1])
