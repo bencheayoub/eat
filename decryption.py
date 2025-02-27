@@ -1,4 +1,4 @@
-burt = "E10a23t9090t9ae0140"
+ans = "E10a23t9090t9ae0140"
 
 def exploit(s1):
     e1 = 0
