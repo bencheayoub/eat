@@ -23,6 +23,7 @@ def EAt(eat, eats):
         eateat += 1
     return eAt
 
+
 def aten(eat):
     return eat[::EATEATEAT-EATEATEATEAT]
 
